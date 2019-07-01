@@ -1,0 +1,8 @@
+server:
+  port: 2181
+
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 10.0.99.212:2181
+      cluster-name: es-cluster
